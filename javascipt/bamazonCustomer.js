@@ -4,7 +4,7 @@ var cliTable= require("cli-table");
 
 var connection = mysql.createConnection({
     host: "localhost",
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 8080,
 
     user: "root",
 
